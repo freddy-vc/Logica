@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.py": "python",
-        "*.tcc": "cpp",
-        "limits": "cpp"
-    }
-}

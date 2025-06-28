@@ -18,12 +18,13 @@
 
 using namespace std;
 
-
+// Función para limpiar la entrada
 void limpiarEntrada(){
-    cin.clear();
-    cin.ignore(numeric_limits<streamsize>::max(),'\n');
+    cin.clear(); // Limpia el error de entrada
+    cin.ignore(numeric_limits<streamsize>::max(),'\n'); // Limpiar el buffer de entrada
 }
 
+// Función para validar y pedir el modelo de un pantalón existente.
 char pedirModeloPantalon(const string& mensaje){
     char modelo;
     while(true){
@@ -34,6 +35,7 @@ char pedirModeloPantalon(const string& mensaje){
     }
 }
 
+// Función para válidar y pedir la talla disponible para los pantalones.
 int pedirTallaPantalon(const string& mensaje){
     int talla;
     while(true){
@@ -45,6 +47,7 @@ int pedirTallaPantalon(const string& mensaje){
     }
 }
 
+// Función para validar y pedir el costo por metro de la tela del pantalón
 float pedirCostoPorMetroDeTela(const string& mensaje){
     float costo;
     while(true){
@@ -56,6 +59,7 @@ float pedirCostoPorMetroDeTela(const string& mensaje){
     }
 }
 
+// Función para pedir la cantidad de pantalones a fábricar
 int pedirCantidadPantalon(const string& mensaje){
     int cantidad;
     while(true){

@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <windows.h>
+#include <limits>
 
 #define M_PI 3.14159265358979323846
 

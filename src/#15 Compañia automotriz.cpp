@@ -28,7 +28,7 @@ int pedirCantidadDeAutos() {
         cin >> cantidad;
         if (!cin.fail() && cantidad > 0) return cantidad;
 
-        cout << "❌ Entrada inválida. La cantidad debe ser positiva!" << endl;
+        cout << "Entrada inválida. La cantidad debe ser positiva!" << endl;
         limpiarEntrada();
     }
 }
@@ -41,7 +41,7 @@ float pedirPrecioAutomovil(int n) {
         cin >> precio;
         if (!cin.fail() && precio > 0) return precio;
 
-        cout << "❌ Entrada inválida. El precio debe ser positivo." << endl;
+        cout << "Entrada inválida. El precio debe ser positivo." << endl;
         limpiarEntrada();
     }
 }
@@ -54,7 +54,7 @@ int pedirClave(int n) {
         cin >> clave;
         if (!cin.fail() && (clave >= 1 && clave <= 3)) return clave;
 
-        cout << "❌ Clave inválida. Debe estar entre 1 y 3." << endl;
+        cout << "Clave inválida. Debe estar entre 1 y 3." << endl;
         limpiarEntrada();
     }
 }
@@ -105,7 +105,7 @@ int main() {
     cout << "Total impuesto categoría 1: $" << total_cat1 << " USD" << endl;
     cout << "Total impuesto categoría 2: $" << total_cat2 << " USD" << endl;
     cout << "Total impuesto categoría 3: $" << total_cat3 << " USD" << endl;
-    cout << "💰 Total general de impuestos: $" << total_general << " USD" << endl;
+    cout << "Total general de impuestos: $" << total_general << " USD" << endl;
 
     return 0;
 }

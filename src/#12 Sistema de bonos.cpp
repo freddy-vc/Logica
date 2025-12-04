@@ -74,9 +74,9 @@ int main(){
     bonoFinal = (bonoAntiguedad > bonoSueldo) ? bonoAntiguedad : bonoSueldo;
 
     // Mostrar resultados
-    cout << "\n► Bono por antigüedad: $" << bonoAntiguedad << " USD" << endl;
-    cout << "► Bono por sueldo: $" << bonoSueldo << " USD" << endl;
-    cout << "✅ El bono asignado será: $" << bonoFinal << " USD" << endl;
+    cout << "\nBono por antigüedad: $" << bonoAntiguedad << " USD" << endl;
+    cout << "Bono por sueldo: $" << bonoSueldo << " USD" << endl;
+    cout << "El bono asignado será: $" << bonoFinal << " USD" << endl;
 
     return 0;
 }

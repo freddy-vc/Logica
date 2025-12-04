@@ -24,7 +24,7 @@ int main() {
     getline(cin, producto);
 
     while (producto.empty()) {
-        cout << "❌ El nombre del producto no puede estar vacío. Intente de nuevo: ";
+        cout << "El nombre del producto no puede estar vacío. Intente de nuevo: ";
         getline(cin, producto);
     }
 
@@ -36,7 +36,7 @@ int main() {
         if (cin.fail() || precio_unitario <= 0) {
             cin.clear(); // Eliminar los flags de error
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer con los carácteres que causaron el error
-            cout << "❌ Entrada inválida. El precio debe ser un número positivo.\n";
+            cout << "Entrada inválida. El precio debe ser un número positivo.\n";
         }
 
     } while (precio_unitario <= 0);
@@ -49,7 +49,7 @@ int main() {
         if (cin.fail() || cantidad <= 0) {
             cin.clear(); // Eliminar los flags de error
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer con los carácteres que causaron el error
-            cout << "❌ Entrada inválida. La cantidad debe ser un número entero positivo.\n";
+            cout << "Entrada inválida. La cantidad debe ser un número entero positivo.\n";
         }
 
     } while (cantidad <= 0);

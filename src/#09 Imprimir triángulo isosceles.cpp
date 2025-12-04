@@ -24,7 +24,7 @@ int validarEntrada(const string& mensaje) {
         if (cin.fail() || valor <= 0) {
             cin.clear(); // limpiar error
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // limpiar búfer de entrada
-            cout << "❌ Entrada inválida. Ingrese un número positivo.\n";
+            cout << "Entrada inválida. Ingrese un número positivo.\n";
         }
 
     } while (valor <= 0);

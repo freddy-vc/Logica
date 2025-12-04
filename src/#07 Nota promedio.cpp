@@ -26,7 +26,7 @@ float calcularNotaPromedio(int n, int c) {
                 if (cin.fail() || nota < 0 || nota > 5) {
                     cin.clear();
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                    cout << "  ❌ Nota inválida. Ingrese un valor entre 0 y 5." << endl;
+                    cout << "Nota inválida. Ingrese un valor entre 0 y 5." << endl;
                 }
 
             } while (nota < 0 || nota > 5);
@@ -51,7 +51,7 @@ int main() {
         if (cin.fail() || n <= 0) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << "❌ Entrada inválida. La cantidad de alumnos debe ser un número entero positivo." << endl;
+            cout << "Entrada inválida. La cantidad de alumnos debe ser un número entero positivo." << endl;
         }
     } while (n <= 0);
 
@@ -63,7 +63,7 @@ int main() {
         if (cin.fail() || c <= 0) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << "❌ Entrada inválida. La cantidad de notas debe ser un número entero positivo." << endl;
+            cout << "Entrada inválida. La cantidad de notas debe ser un número entero positivo." << endl;
         }
     } while (c <= 0);
 

@@ -64,14 +64,14 @@ int main() {
         total_a_pagar += precioFinal;
 
         // Mostrar detalle del artículo
-        cout << "🛒 Artículo #" << i << ": \n";
-        cout << "  ➤ Precio original: $" << precio << endl;
-        cout << "  ➤ Descuento aplicado: $" << descuento << endl;
-        cout << "  ➤ Precio final: $" << precioFinal << endl << endl;
+        cout << "Artículo #" << i << ": \n";
+        cout << "Precio original: $" << precio << endl;
+        cout << "Descuento aplicado: $" << descuento << endl;
+        cout << "Precio final: $" << precioFinal << endl << endl;
     }
 
     // Total a pagar
-    cout << "🧾 Total a pagar por los " << n << " artículos: $" << total_a_pagar << " USD." << endl;
+    cout << "Total a pagar por los " << n << " artículos: $" << total_a_pagar << " USD." << endl;
 
     return 0;
 }

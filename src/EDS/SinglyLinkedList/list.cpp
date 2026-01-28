@@ -4,10 +4,10 @@
 #include "list.h"
 
 template<typename T> 
-List<T>:: List(): begin(nullptr), count(0){ } 
+List<T>::List() : begin(nullptr), count(0){ } 
 
 template<typename T> 
-List<T>:: ~List(){ 
+List<T>::~List(){ 
     Node<T>* del = begin; 
     while (begin){ 
         begin = begin->next; 
